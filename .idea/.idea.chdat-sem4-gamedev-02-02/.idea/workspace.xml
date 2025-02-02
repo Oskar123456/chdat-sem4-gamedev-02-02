@@ -5,15 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3658f0be-6ba5-4417-805c-7d55791e6780" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Scenes/QuickOutline.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Scenes/QuickOutline.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.chdat-sem4-gamedev-02-02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.chdat-sem4-gamedev-02-02/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.chdat-sem4-gamedev-02-02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/images (1).mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/images (1).mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PreFabs/lvl2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PreFabs/lvl2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Controllers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/New.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/New.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/New/Jump.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/New/Jump.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/New/Movement.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/New/Movement.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/SwordAndShieldPack.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/SwordAndShieldPack.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerCamera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerCamera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerFree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerFree.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/RPGWeaponsPackMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/RPGWeaponsPackMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,27 +58,27 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2sUHYpjACzmE3VYjvtZph6OWHPF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe" />

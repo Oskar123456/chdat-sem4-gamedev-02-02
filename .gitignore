@@ -44,6 +44,24 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, Rider, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# JetBrains workspace-related files
+.idea/*workspace.xml
+.idea/*tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Rider-specific files
+.idea/modules.xml
+.idea/.idea.Module.xml
+.idea/.idea.Solution.xml
+.idea/.idea.sln.iml
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta

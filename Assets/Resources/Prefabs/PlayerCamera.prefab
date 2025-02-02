@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 5066056848955781665}
   - component: {fileID: 5066056848955781664}
   - component: {fileID: 5066056848955781671}
+<<<<<<< Updated upstream
   - component: {fileID: -4920701193493259968}
+=======
+  - component: {fileID: -1441098236061925501}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Player
@@ -121,7 +125,11 @@ MonoBehaviour:
   collisionLayers:
     serializedVersion: 2
     m_Bits: 4294967295
+<<<<<<< Updated upstream
 --- !u!114 &-4920701193493259968
+=======
+--- !u!114 &-1441098236061925501
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
