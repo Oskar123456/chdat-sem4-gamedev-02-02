@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RobotFreeAnim : MonoBehaviour
 {
-    public float ms_norm = 0.1f;
-    public float ms_sprint = 0.3f;
-    float ms = 0.1f;
+    public float ms_norm = 0.15f;
+    public float ms_sprint = 0.2f;
+    float ms = 0.15f;
 
     Vector3 rot = Vector3.zero;
     float rotSpeed = 40f;
