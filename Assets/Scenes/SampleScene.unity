@@ -1337,18 +1337,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2002518546863215927, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
-      propertyPath: m_Size.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2002518546863215927, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
-      propertyPath: m_Center.y
-      value: -0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 2002518546863215927, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3469277966004949036, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
       propertyPath: m_Name
       value: PressurePlate
