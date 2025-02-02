@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3658f0be-6ba5-4417-805c-7d55791e6780" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.chdat-sem4-gamedev-02-02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.chdat-sem4-gamedev-02-02/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.chdat-sem4-gamedev-02-02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/images (1).mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/images (1).mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PreFabs/lvl2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PreFabs/lvl2.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Controllers.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/New.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/New.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/New/Jump.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/New/Jump.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/New/Movement.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/New/Movement.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/SwordAndShieldPack.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/SwordAndShieldPack.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Controllers/PlayerFree.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Controllers/PlayerFree.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerCamera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerCamera.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerFree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerFree.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ventuar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/RPGWeaponsPackMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Materials/RPGWeaponsPackMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
