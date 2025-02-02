@@ -172,6 +172,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: color.r
+      value: 0.9963193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
       propertyPath: 'triggers.Array.data[0]'
       value: 
       objectReference: {fileID: 399695195}
@@ -865,6 +877,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: color.g
+      value: 0.63169324
+      objectReference: {fileID: 0}
+    - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7818513280512751286, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
       propertyPath: 'triggers.Array.data[0]'
       value: 
       objectReference: {fileID: 1688574791}
@@ -1008,7 +1032,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488226471}
   serializedVersion: 4
-  m_Mass: 100
+  m_Mass: 200
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1197,7 +1221,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863312952}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1299,7 +1323,7 @@ Transform:
   m_GameObject: {fileID: 1863312952}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.87, y: 1.5, z: 6.94}
+  m_LocalPosition: {x: 10.87, y: 1.502, z: 6.94}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1313,6 +1337,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2002518546863215927, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2002518546863215927, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: m_Center.y
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2002518546863215927, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3469277966004949036, guid: a666504e93bb6ae26ae524ee2d7074d4, type: 3}
       propertyPath: m_Name
       value: PressurePlate

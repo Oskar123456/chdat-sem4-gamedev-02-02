@@ -30,7 +30,7 @@ public class PressurePlate : MonoBehaviour
         model.GetComponent<Renderer>().material.color = color;
 
         default_scale = model_trans.localScale;
-        pressed_scale = new Vector3(default_scale.x, 0.2f, default_scale.z);
+        pressed_scale = new Vector3(default_scale.x, 0.001f, default_scale.z);
         step_scale = new Vector3(0, (default_scale.y - pressed_scale.y) / 10.0f, 0);
         default_pos = model_trans.localPosition;
         target_height = default_scale.y;
@@ -39,7 +39,6 @@ public class PressurePlate : MonoBehaviour
     void Update()
     {
         if (model_trans.localScale.y != target_height) {
-            /* Debug.Log("change height"); */
             float sign = (model_trans.localScale.y > target_height) ? -1 : 1;
             model_trans.localScale += step_scale * sign;
             if (model_trans.localScale.y < pressed_scale.y)
@@ -49,7 +48,6 @@ public class PressurePlate : MonoBehaviour
             model_trans.localPosition = new Vector3(default_pos.x,
                     default_pos.y - (default_scale.y - model_trans.localScale.y) / 2.0f,
                     default_pos.z);
-            /* collider.size = collider_size; */
         }
     }
 
