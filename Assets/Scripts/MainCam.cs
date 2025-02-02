@@ -4,7 +4,7 @@ public class MainCam : MonoBehaviour
 {
     GameObject player;
     Transform player_pos;
-    Quaternion cam_rot = Quaternion.Euler(new Vector3(30, 0, 0));
+    Quaternion cam_rot = Quaternion.Euler(new Vector3(45, 0, 0));
 
     void Awake()
     {
@@ -24,6 +24,6 @@ public class MainCam : MonoBehaviour
 
     Vector3 GetCamPos()
     {
-        return new Vector3(player_pos.position.x, player_pos.position.y + 20, player_pos.position.z - 30);
+        return new Vector3(player_pos.position.x, player_pos.position.y + 50, player_pos.position.z - 50);
     }
 }

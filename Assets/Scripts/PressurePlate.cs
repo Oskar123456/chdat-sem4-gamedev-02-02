@@ -55,6 +55,8 @@ public class PressurePlate : MonoBehaviour
     {
         occupants++;
         target_height = pressed_scale.y;
+        if (occupants > 1)
+            return;
         foreach (var go in triggers)
             go.SendMessage("Trigger", color);
     }
