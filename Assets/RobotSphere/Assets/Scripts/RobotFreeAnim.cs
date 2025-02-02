@@ -5,9 +5,9 @@ using UnityEngine;
 public class RobotFreeAnim : MonoBehaviour
 {
     public float jump_force = 1000.0f;
-    public float ms_norm = 0.10f;
-    public float ms_sprint = 0.2f;
-    float ms = 0.10f;
+    float ms_norm = 0.1f;
+    float ms_sprint = 0.2f;
+    float ms = 0.1f;
 
     Vector3 rot = Vector3.zero;
     float rotSpeed = 40f;
