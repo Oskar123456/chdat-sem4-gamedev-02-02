@@ -8,7 +8,9 @@ public class LaserDoor : MonoBehaviour
     public Color color;
     public List<GameObject> triggers;
 
-    int s = 2;
+    public int s = 2;
+    public int dir = 0;
+
     int blink_frames = 0;
     Color blink_color;
 
@@ -49,8 +51,14 @@ public class LaserDoor : MonoBehaviour
                 trans.localScale = pressed_scale;
             if (trans.localScale.x > default_scale.x)
                 trans.localScale = default_scale;
-            trans.localPosition = new Vector3(default_pos.x - (default_scale.x - trans.localScale.x) / 2.0f,
-                    default_pos.y, default_pos.z);
+            if (dir == 0) {
+                trans.localPosition = new Vector3(default_pos.x - (default_scale.x - trans.localScale.x) / 2.0f,
+                        default_pos.y, default_pos.z);
+            }
+            else {
+                trans.localPosition = new Vector3(default_pos.x,
+                        default_pos.y, default_pos.z - (default_scale.x - trans.localScale.x) / 2.0f);
+            }
         }
 
         if (blink_frames > 0) {
@@ -67,13 +75,13 @@ public class LaserDoor : MonoBehaviour
     {
         s--;
         blink_frames += 10;
-        Debug.Log(s);
+        /* Debug.Log(s); */
     }
 
     void UnTrigger()
     {
         s++;
         blink_frames += 10;
-        Debug.Log(s);
+        /* Debug.Log(s); */
     }
 }

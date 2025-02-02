@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class RobotFreeAnim : MonoBehaviour
 {
-    public float ms_norm = 0.15f;
+    public float jump_force = 1000.0f;
+    public float ms_norm = 0.10f;
     public float ms_sprint = 0.2f;
-    float ms = 0.15f;
+    float ms = 0.10f;
 
     Vector3 rot = Vector3.zero;
     float rotSpeed = 40f;
+    bool in_air = false;
     Animator anim;
     Transform trans;
+    Rigidbody rb;
 
     // Use this for initialization
     void Awake()
     {
         anim = GetComponent<Animator>();
         trans = GetComponent<Transform>();
+        rb = GetComponent<Rigidbody>();
         gameObject.transform.eulerAngles = rot;
     }
 
@@ -48,59 +52,51 @@ public class RobotFreeAnim : MonoBehaviour
             /* anim.SetBool("Roll_Anim", false); */
         }
 
+        anim.SetBool("Walk_Anim", false);
+
         if (Input.GetKey(KeyCode.W)) {
             anim.SetBool("Walk_Anim", true);
             rot[1] = 0.0f;
             trans.Translate(trans.forward * ms, Space.World);
         }
 
-        else if (Input.GetKey(KeyCode.S)) {
+        if (Input.GetKey(KeyCode.S)) {
             anim.SetBool("Walk_Anim", true);
             rot[1] = 180.0f;
             trans.Translate(trans.forward * ms, Space.World);
         }
 
-        else if (Input.GetKey(KeyCode.A)) {
+        if (Input.GetKey(KeyCode.A)) {
             anim.SetBool("Walk_Anim", true);
             rot[1] = 270.0f;
             trans.Translate(trans.forward * ms, Space.World);
         }
 
-        else if (Input.GetKey(KeyCode.D)) {
+        if (Input.GetKey(KeyCode.D)) {
             anim.SetBool("Walk_Anim", true);
             rot[1] = 90.0f;
             trans.Translate(trans.forward * ms, Space.World);
         }
 
-        else {
-            anim.SetBool("Walk_Anim", false);
+        if (!in_air && Input.GetKeyDown(KeyCode.Space)) {
+            in_air = true;
+            rb.AddForce(trans.up * jump_force, ForceMode.Impulse);
         }
 
-        // Roll
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            /* if (anim.GetBool("Roll_Anim")) */
-            /* { */
-            /*     anim.SetBool("Roll_Anim", false); */
-            /* } */
-            /* else */
-            /* { */
-            /*     anim.SetBool("Roll_Anim", true); */
-            /* } */
-        }
-
-        // Close
-        if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
-            if (!anim.GetBool("Open_Anim"))
-            {
+        if (Input.GetKeyDown(KeyCode.LeftControl)) {
+            if (!anim.GetBool("Open_Anim")) {
                 anim.SetBool("Open_Anim", true);
             }
-            else
-            {
+            else {
                 anim.SetBool("Open_Anim", false);
             }
         }
+    }
+
+    void OnCollisionEnter()
+    {
+        in_air = false;
+        /* Debug.Log("in_air: " + in_air.ToString()); */
     }
 
 }
