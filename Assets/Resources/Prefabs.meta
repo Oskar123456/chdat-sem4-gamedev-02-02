@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 guid: 845ea6e5f31785f4382c95017b208ecc
 =======
 guid: 6da0f7a48b7fe70499681f3a53a67472
 >>>>>>> Stashed changes
+=======
+guid: a48d821fae80ba74298db539e4a4cad0
+>>>>>>> origin/MKDeveloper
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
